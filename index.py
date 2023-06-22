@@ -59,4 +59,5 @@ def predict_emotion(text):
 if textInput:
     prediction = predict_emotion(textInput)
 
+    st.markdown("<h3>Predicted</h3>")
     st.header(prediction)
